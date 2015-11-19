@@ -1,0 +1,32 @@
+{
+  "name": "spv",
+  "version": "0.0.0",
+  "description": "Represent CSS through objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamen/spv.git"
+  },
+  "keywords": [
+    "css",
+    "spv",
+    "selector",
+    "property",
+    "value"
+  ],
+  "author": "Jamen Marz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamen/spv/issues"
+  },
+  "devDependencies": {
+    "jest-cli": "latest"
+  },
+  "homepage": "https://github.com/jamen/spv#readme",
+  "jest": {
+    "testDirectoryPath": "tests"
+  }
+}
