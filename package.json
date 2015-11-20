@@ -1,6 +1,6 @@
 {
   "name": "spv",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Represent CSS through objects.",
   "main": "index.js",
   "scripts": {
