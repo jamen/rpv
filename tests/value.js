@@ -26,7 +26,7 @@ describe('Value object', () => {
     ).toBe(10);
   });
 
-  it('holds keyword values' () => {
+  it('holds keyword values', () => {
     expect(
       new Value('none').val
     ).toBe('none');
