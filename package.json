@@ -1,6 +1,6 @@
 {
   "name": "spv",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Represent CSS through objects.",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/jamen/spv#readme",
   "jest": {
-    "testDirectoryPath": "tests"
+    "testDirectoryName": "tests"
   }
 }
