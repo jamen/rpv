@@ -32,4 +32,4 @@ let tree = [
 ];
 ```
 
-Learn more in the [BPV Wiki](wiki)
+Learn more in the [BPV Wiki](https://github.com/jamen/bpv/wiki)
