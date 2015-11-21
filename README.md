@@ -1,9 +1,9 @@
-# SPV
-Express CSS in JavaScript through Selector, Property, and Value objects.
+# BPV
+Express CSS in JavaScript through Block, Property, and Value objects.
 
 ## Installation
 ```
-npm install spv --save
+npm install bpv --save
 ```
 
 Or add it a dependency directly
@@ -12,7 +12,7 @@ Or add it a dependency directly
 {
   // ...
   "dependencies": {
-    "spv": "latest"
+    "bpv": "latest"
   }
 }
 ```
@@ -20,16 +20,16 @@ Or add it a dependency directly
 ## Usage
 Require necessary components:
 ```javascript
-const spv = require('spv'), {Selector, Property, Value} = spv;
+const spv = require('spv'), {Block, Property, Value} = spv;
 ```
 
 Create a tree:
 ```javascript
 let tree = [
-  Selector('foo', [
+  Block('foo', [
     Property('bar', Value(5, 'px'));
   ])
 ];
 ```
 
-Learn more in the [SPV Wiki](wiki)
+Learn more in the [BPV Wiki](wiki)
