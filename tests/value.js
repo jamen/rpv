@@ -1,6 +1,6 @@
 // jshint ignore: start
 'use strict';
-jest.dontMock('../lib/value');
+jest.autoMockOff();
 
 describe('Value object', () => {
   const Value = require('../lib/value');
@@ -8,7 +8,7 @@ describe('Value object', () => {
   it('holds number values', () => {
     // getting value
     expect(
-      new Value(10, 'px').val
+      (new Value(10, 'px')).val
     ).toBe(10);
 
     // getting type
