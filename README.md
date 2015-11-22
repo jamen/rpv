@@ -1,9 +1,9 @@
-# BPV
-Express CSS in JavaScript through Block, Property, and Value objects.
+# RPV
+Express CSS in JavaScript through Rule, Property, and Value objects.
 
 ## Installation
 ```
-npm install bpv --save
+npm install rpv --save
 ```
 
 Or add it a dependency directly
@@ -12,7 +12,7 @@ Or add it a dependency directly
 {
   // ...
   "dependencies": {
-    "bpv": "latest"
+    "rpv": "latest"
   }
 }
 ```
@@ -20,16 +20,16 @@ Or add it a dependency directly
 ## Usage
 Require necessary components:
 ```javascript
-const spv = require('spv'), {Block, Property, Value} = spv;
+const rpv = require('rpv'), {Block, Property, Value} = rpv;
 ```
 
 Create a tree:
 ```javascript
 let tree = [
-  Block('foo', [
+  Rule('foo', [
     Property('bar', Value(5, 'px'));
   ])
 ];
 ```
 
-Learn more in the [BPV Wiki](https://github.com/jamen/bpv/wiki)
+Learn more in the [RPV Wiki](https://github.com/jamen/bpv/wiki)
