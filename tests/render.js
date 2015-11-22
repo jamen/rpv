@@ -34,11 +34,15 @@ describe('build function', () => {
 
 
   it('renders Properties', () => {
-
+    expect(
+      render(Property('foo', Value('bar')))
+    ).toBe('foo: bar');
   });
 
   it('renders Rules', () => {
-
+    expect(render(Rule('.foo', [
+      Property('bar', Value('baz'))
+    ]), {indent:false})).toBe('.foo {bar: baz}')
   });
 
 });
