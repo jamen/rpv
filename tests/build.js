@@ -1,6 +1,8 @@
 // jshint ignore: start
 jest.autoMockOff();
 
-describe('build function', function(){
+const build = require('../lib/build');
+
+describe('build function', () => {
 
 });

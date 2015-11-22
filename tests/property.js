@@ -2,10 +2,10 @@
 'use strict';
 jest.autoMockOff();
 
-describe('Property object', function(){
-  const Property = require('../lib/property'),
-        Value = require('../lib/value');
+const Property = require('../lib/property'),
+      Value = require('../lib/value');
 
+describe('Property object', () => {
   let foo = new Property('x-test', [
     new Value(0),
     new Value(1, 'px')

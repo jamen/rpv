@@ -2,9 +2,9 @@
 'use strict';
 jest.autoMockOff();
 
-describe('Value object', () => {
-  const Value = require('../lib/value');
+const Value = require('../lib/value');
 
+describe('Value object', () => {
   it('holds number values', () => {
     // getting value
     expect(
