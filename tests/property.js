@@ -13,28 +13,28 @@ describe('Property object', function(){
 
   it('holds values', () => {
     expect(
-      foo.values[0]
+      foo.items[0]
     ).toEqual(new Value(0));
   });
 
   it('adds values', () => {
     foo.add(new Value(1, 'em'));
     expect(
-      foo.values[2]
+      foo.items[2]
     ).toEqual(new Value(1, 'em'))
   });
 
   it('removes values', () => {
     foo.remove(0);
     expect(
-      foo.values[0]
+      foo.items[0]
     ).toEqual(new Value(1, 'px'));
   });
 
   it('sets values', () => {
     foo.set(1, new Value(1, 'px'));
     expect(
-      foo.values[1]
+      foo.items[1]
     ).toEqual(new Value(1, 'px'));
   });
 });
