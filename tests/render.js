@@ -11,15 +11,15 @@ describe('build function', () => {
 
   it('renders Values', () => {
     expect(
-      render.value(Value(2, 'px'))
+      render(Value(2, 'px'))
     ).toBe('2px');
 
     expect(
-      render.value(Value('none'))
+      render(Value('none'))
     ).toBe('none');
 
     expect(
-      render.value(Value('rgb', [
+      render(Value('rgb', [
         Value(0),
         Value(1),
         Value(2)
@@ -28,7 +28,7 @@ describe('build function', () => {
 
     // Shorthand function
     expect(
-      render.value(Value('rgba', [1, 2, 3, 0.4]))
+      render(Value('rgba', [1, 2, 3, 0.4]))
     ).toBe('rgba(1, 2, 3, 0.4)')
   });
 
