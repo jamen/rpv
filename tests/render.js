@@ -32,4 +32,13 @@ describe('build function', () => {
     ).toBe('rgba(1, 2, 3, 0.4)')
   });
 
+
+  it('renders Properties', () => {
+
+  });
+
+  it('renders Rules', () => {
+
+  });
+
 });
