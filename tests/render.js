@@ -26,6 +26,10 @@ describe('build function', () => {
       ]))
     ).toBe('rgb(0, 1, 2)')
 
+    // Shorthand function
+    expect(
+      render.value(Value('rgba', [1, 2, 3, 0.4]))
+    ).toBe('rgba(1, 2, 3, 0.4)')
   });
 
 });
