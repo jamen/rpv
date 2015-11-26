@@ -25,7 +25,7 @@
   "devDependencies": {
     "jest-cli": "latest"
   },
-  "homepage": "https://github.com/jamen/spv#readme",
+  "homepage": "https://github.com/jamen/rpv#readme",
   "jest": {
     "testDirectoryName": "tests"
   }
