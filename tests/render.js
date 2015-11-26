@@ -7,7 +7,7 @@ const lib = require('../lib'),
       Rule = lib.Rule,
       render = lib.render;
 
-describe('build function', () => {
+describe('render function', () => {
 
   it('renders Values', () => {
     expect(
