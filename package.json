@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jamen/spv.git"
+    "url": "git+https://github.com/jamen/rpv.git"
   },
   "keywords": [
     "css",
-    "spv",
+    "rpv",
     "selector",
     "property",
     "value"
@@ -20,7 +20,7 @@
   "author": "Jamen Marz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jamen/spv/issues"
+    "url": "https://github.com/jamen/rpv/issues"
   },
   "devDependencies": {
     "jest-cli": "latest"
