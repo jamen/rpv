@@ -23,10 +23,7 @@
     "url": "https://github.com/jamen/rpv/issues"
   },
   "devDependencies": {
-    "jest-cli": "latest"
+    "ava": "latest"
   },
-  "homepage": "https://github.com/jamen/rpv#readme",
-  "jest": {
-    "testDirectoryName": "tests"
-  }
+  "homepage": "https://github.com/jamen/rpv#readme"
 }
