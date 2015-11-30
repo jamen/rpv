@@ -4,7 +4,7 @@
   "description": "Represent CSS through objects.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "ava test"
   },
   "repository": {
     "type": "git",
