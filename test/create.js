@@ -1,7 +1,7 @@
 import test from 'ava';
 import { create } from '../lib';
 
-test('"create" function.', ({is, true: isTrue}) => {
+test('"create" function', ({is, true: isTrue}) => {
   // Create object.
   let Test = create(function(a){
     this.a = a;
