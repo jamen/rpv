@@ -1,5 +1,5 @@
 import test from 'ava';
-import { search, tree, Rule, Property, Value } from '../lib';
+import { search, Rule, Property, Value } from '../lib';
 
 test('"search" function', ({same}) => {
   // Create uncirculated tree
