@@ -1,6 +1,6 @@
 {
   "name": "rpv",
-  "version": "3.8.1",
+  "version": "3.8.2",
   "description": "Represent CSS through objects.",
   "main": "index.js",
   "scripts": {
