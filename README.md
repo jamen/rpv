@@ -18,18 +18,11 @@ Or add it a dependency directly
 ```
 
 ## Usage
-Require necessary components:
+RPV comes wrapped with the `Rule`, `Property`, and `Value` objects, but also some management functions and objects to build and manage trees and custom components...  Such as `create`, `search`, `render`, and `Tree`.  We can get the whole suite with destructuring like so:
+
 ```javascript
-const rpv = require('rpv'), {Block, Property, Value} = rpv;
+const rpv = require('rpv'),
+      { Tree, Rule, Property, Value } = rpv;
 ```
 
-Create a tree:
-```javascript
-let tree = [
-  Rule('foo', [
-    Property('bar', Value(5, 'px'));
-  ])
-];
-```
-
-Learn more in the [RPV Wiki](https://github.com/jamen/bpv/wiki)
+From here the possibilities are endless.  Read more in the [RPV Wiki](https://github.com/jamen/rpv/wiki) for documentation and how to get started.
