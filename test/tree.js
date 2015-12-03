@@ -1,5 +1,5 @@
 import test from 'ava';
-import { tree, Rule, Property, Value } from '../lib';
+import { Tree, Rule, Property, Value } from '../lib';
 
 test('"tree" function', ({same, true: isTrue}) => {
   // Create uncirculated tree
@@ -22,11 +22,8 @@ test('"tree" function', ({same, true: isTrue}) => {
   ];
 
   // Circulate tree
-  doc = tree(doc);
-
-  // Test that tree is circulated
-  isTrue(doc.circulated);
+  doc = new Tree(doc);
 
   // Test parent link
-  same(doc[0].items[0], prop);
+  same(doc.children[0].children[0], prop);
 });

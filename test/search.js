@@ -1,5 +1,5 @@
 import test from 'ava';
-import { search, Rule, Property, Value } from '../lib';
+import { search, Tree, Rule, Property, Value } from '../lib';
 
 test('"search" function', ({same}) => {
   // Create uncirculated tree
@@ -8,7 +8,7 @@ test('"search" function', ({same}) => {
     new Value(2, 'em')
   ]),
 
-  doc = [
+  doc = new Tree([
     new Rule('.foo', [
       prop
     ]),
@@ -19,7 +19,7 @@ test('"search" function', ({same}) => {
         new Value(1, 'em')
       ])
     ])
-  ];
+  ]);
 
   // Set a tag to search
   prop.set('foo-bar');
