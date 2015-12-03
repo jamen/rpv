@@ -4,7 +4,8 @@
   "description": "Represent CSS through objects.",
   "main": "index.js",
   "scripts": {
-    "test": "ava test"
+    "test": "ava test",
+    "refresh_rpv": "rm -rf node_modules/rpv; npm install"
   },
   "repository": {
     "type": "git",
