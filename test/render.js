@@ -30,7 +30,12 @@ test('"render" function', ({is}) => {
     new Property('min-width', [ new Value(200, 'px') ])
   ], [
     selrule
-  ]);
+  ]),
+  doc = [
+    nocoatrule,
+    selrule,
+    coatrule
+  ];
 
   // Render numval
   is(render(numval), '10px');
@@ -52,5 +57,8 @@ test('"render" function', ({is}) => {
 
   // Render coatrule
   is(render(coatrule), '@media (max-width:600px) and (min-width:200px) {.test {border:1px solid rgba(1, 2, 3, 0.5); margin:2em 10px}}');
+
+  // Render doc
+  is(render(doc), '@namespace prefix url(XML-namespace-URL); .test {border:1px solid rgba(1, 2, 3, 0.5); margin:2em 10px}; @media (max-width:600px) and (min-width:200px) {.test {border:1px solid rgba(1, 2, 3, 0.5); margin:2em 10px}}');
 
 });
