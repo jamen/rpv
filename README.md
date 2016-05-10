@@ -1,3 +1,6 @@
+# Archived: Project Abandoned
+I no longer think this is a useful project.  I would rather use plain or simple objects.
+
 # RPV
 Express CSS in JavaScript through Rule, Property, and Value objects.
 
